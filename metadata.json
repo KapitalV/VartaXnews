@@ -1,0 +1,10 @@
+{
+  "name": "Copy of Varta X News",
+  "description": "The official real-time news application for Varta X News, providing breaking alerts, live reporting, and a community platform.",
+  "requestFramePermissions": [
+    "notifications"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

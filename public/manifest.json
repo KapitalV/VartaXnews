@@ -1,0 +1,24 @@
+{
+  "name": "Varta X News Live",
+  "short_name": "Varta X News",
+  "description": "सच्ची, सटीक और निष्पक्ष खबरों के लिए वार्ता एक्स न्यूज़ लाइव",
+  "start_url": "/?pwa=true",
+  "display": "standalone",
+  "background_color": "#070707",
+  "theme_color": "#b91c1c",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/input_file_0.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/input_file_0.png",
+      "sizes": "1024x1024",
+      "type": "image/png",
+      "purpose": "any"
+    }
+  ]
+}

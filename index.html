@@ -1,0 +1,71 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/png" href="/input_file_0.png" />
+    <link rel="manifest" href="/manifest.json" />
+    <link rel="apple-touch-icon" href="/input_file_0.png" />
+    <meta name="theme-color" content="#b91c1c" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    
+    <!-- SEO Master Configuration -->
+    <meta name="description" content="वार्ता एक्स न्यूज़ मीडिया लाइव (Varta X News Media Live) - उत्तर प्रदेश, वीरांगना लक्ष्मीबाई की पावन धरा झाँसी और देश-विदेश की सबसे सच्ची, सटीक और निष्पक्ष खबरें सीधा ग्राउंड जीरो से। अभी वार्ता एक्स की आधिकारिक मोबाइल ऐप भी स्थापित करें।" />
+    <meta name="keywords" content="Varta X News, Varta X News Media, Varta X News Live, वार्ता एक्स न्यूज़, वार्ता एक्स, वार्ता एक्स लाइव, Varta X News App, Jhansi News, Hradyansh Gupta, Hemant Rajput, Ankesh Gupta, Veerangana Lakshmibai Jhansi, वार्ता एक्स समाचार, वार्ता एक्स मीडिया" />
+    <meta name="author" content="Hradyansh Gupta" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook / WhatsApp Presentation -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Varta X News Media Live - सच | सटीक | निष्पक्ष" />
+    <meta property="og:description" content="वीरांगना लक्ष्मीबाई की पावन धरा झाँसी से और देश-विदेश की सबसे सच्ची और सटीक खबरें। वार्ता एक्स न्यूज़ मीडिया मोबाइल ऐप इंस्टॉल करें।" />
+    <meta property="og:image" content="/input_file_0.png" />
+    <meta property="og:image:width" content="512" />
+    <meta property="og:image:height" content="512" />
+
+    <!-- Twitter Board -->
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="Varta X News Media Live - सच | सटीक | निष्पक्ष" />
+    <meta name="twitter:description" content="वीरांगना लक्ष्मीबाई की पावन धरा झाँसी से सबसे सच्ची, सटीक और निष्पक्ष खबरें ग्राउंड जीरो से लाइव।" />
+    <meta name="twitter:image" content="/input_file_0.png" />
+
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M8NXCDK9M4"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-M8NXCDK9M4');
+    </script>
+
+    <title>Varta X News Media Live - सच | सटीक | निष्पक्ष</title>
+    <script>
+      if ('serviceWorker' in navigator) {
+        window.addEventListener('load', () => {
+          navigator.serviceWorker.register('/sw.js', { updateViaCache: 'none' })
+            .then(reg => {
+              // Proactively check for an updated Service Worker on page load
+              reg.update().catch(() => {});
+            })
+            .catch(err => console.warn('ServiceWorker registration error: ', err));
+        });
+
+        // Ensure fresh assets take effect immediately when a new SW activates
+        let isRefreshing = false;
+        navigator.serviceWorker.addEventListener('controllerchange', () => {
+          if (!isRefreshing) {
+            isRefreshing = true;
+            window.location.reload();
+          }
+        });
+      }
+    </script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+
